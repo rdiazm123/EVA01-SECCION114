@@ -7,6 +7,160 @@ Curso Frontend - Unidad 01*/
 
 /* 
 =====Estilos PAGINA INDEX =====*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* =====Propiedas Body======= */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d21988;
+    color: #333;
+
+}
+
+/* 
+=====Propiedas Navbar====== */
+
+nav {
+    background-color: #1e293b;
+    color:white;
+    padding: 20px;
+/* 
+    FLEXBOX */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color:aqua;
+}
+/* 
+====HEADER====== */
+
+header{
+    background-color: #a531d7;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1{
+    font-size: 40px;
+    margin-bottom: 18px;
+}
+
+header p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+header button{
+    background-color: rgb(255, 0, 200);
+    border: none;
+    padding:  12px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+header button:hover{
+    background-color: aquamarine;
+}
+/* 
+contenido principal */
+
+main{
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+    gap:30px;
+}
+/* 
+secciones */
+
+section{
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    flex:1;
+}
+
+section h2{
+    margin-bottom: 15px;
+    color: #0f172a;
+}
+
+section p{
+    line-height: 1.6;
+}
+/* 
+FORMULARIO */
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form label{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, 
+form textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea{
+    resize: vertical;
+    height: 100px;
+}
+
+form button{
+    margin-top: 15px;
+    background-color: #1e293b;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #333;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #1e293b;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
 
 
 
