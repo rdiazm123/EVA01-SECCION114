@@ -113,8 +113,15 @@ section h2{
 section p{
     line-height: 1.6;
 }
+
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
 /* 
-FORMULARIO */
+FORMULARIO 
+*/
 form{
     display: flex;
     flex-direction: column;
@@ -174,4 +181,3 @@ footer {
 
 
 
-/* =====ESTILOS PAGINA FORMULARIO =====*/
